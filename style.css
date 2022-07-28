@@ -1,0 +1,158 @@
+body{    
+    background-image: linear-gradient(90deg, #31354799,#4b557a99), url(photos/back.jpg);
+    background-size: cover;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 30px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+.fa-phone-volume{
+    transform: rotate(-30deg);
+    margin-top: 10px;
+    width: min-content;
+    height: min-content;
+    margin-right: 10px;
+}
+nav a{
+    margin-right: 100px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+nav div h4{
+    /* margin-bottom: 100px; */
+    margin-top: 0px;
+    font-weight: 600;
+}
+header div:first-child{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: x-large;
+}
+/* ----------- */
+/* hero */
+/* ------------ */
+.hero{
+    /* display: inline; */
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 50px;
+}
+.hero button{
+    padding: 20px 55px;
+    border-radius: 2.8em;
+    font-size: 40%;
+    text-transform: uppercase;
+    background: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-weight:600;
+    width: max-content;
+}
+.puzzle{
+    position: absolute;
+    top: 22%;
+    right: 5%;
+    float: left;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bulb{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    float: left;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.line1{
+    position: absolute;
+    top: 41%;
+    right: 12%;
+    height: 100px;
+    border-left: 1px solid #ffffff;
+    width: 20px;
+}
+.line2{
+    position: absolute;
+    width: 100px;
+    top: 60%;
+    right: 18.5%;
+    border-bottom: 1px solid #ffffff;
+    height: min-content;
+}
+.dot1{
+    position: absolute;
+    top: 55%;
+    right: 12.8%;
+    width: min-content;
+    height: min-content;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border-left: 1px solid #ffffff;
+}
+.dot2{
+    position: absolute;
+    top: 59%;
+    right: 18%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: min-content;
+    height: min-content;
+}
+.fa-bars{
+    display: none;
+}
+@media screen and (max-width: 1233px) {
+    .dot1, .dot2, .line1, .line2{
+        display: none;
+    }
+    .puzzle{
+        position: absolute;
+        top: 90%;
+        right: 5%;
+        width: 20vw;
+    }
+    .bulb{
+        position: absolute;
+        top: 90%;
+        right: 35%;
+        width: 20vw;
+    }
+    nav a{
+        margin-right: 20px;
+    }
+    .hero{
+        /* display: inline; */
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .fa-bars{
+        display: block;
+        padding-top: 20px;
+    }
+    nav{
+        display: none;
+    }
+    /* .fa-bars:hover, nav{
+        display: flex;
+        flex-direction: column;
+    } */
+}
