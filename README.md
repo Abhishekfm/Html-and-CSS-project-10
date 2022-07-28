@@ -15,10 +15,10 @@ In this Project I learned about position absolute by which we can place the elem
 ### Duration Of Completing this project
 > Honestly it took me more than **3 hours** .
 
-[Visit This Project Live](https://abhi-project-1.netlify.app/)
+[Visit This Project Live](https://abhi-project-10.netlify.app/)
 
 
 #
 
-To see my work visit my [Portfolio]("my-portfolio-website")
+To see my work visit my [Portfolio](https://portfolio-of-abhishek.netlify.app)
 
